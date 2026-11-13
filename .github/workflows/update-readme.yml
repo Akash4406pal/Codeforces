@@ -1,0 +1,46 @@
+name: Update README Problem Counts
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**.cpp'
+      - '**.py'
+      - '**.java'
+      - '**.cc'
+      - 'scripts/**'
+  schedule:
+    # Run once every day at 00:00 UTC
+    - cron: '0 0 * * *'
+  # Allows manual execution from the GitHub Actions tab
+  workflow_dispatch:
+
+# Give the workflow permission to commit and push to the repo
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # fetch-depth: 0 ensures complete git history (not shallow depth 1)
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run README updater script
+        run: node scripts/update-readme.js
+
+      - name: Commit and push changes if updated
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs: auto-update solved problems count in README [skip ci]"
+          file_pattern: 'README.md'
+
