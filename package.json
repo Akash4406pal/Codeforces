@@ -1,0 +1,21 @@
+{
+  "name": "codeforces-solutions",
+  "version": "1.0.0",
+  "description": "Codeforces problem solutions categorized by algorithmic topic and data structures",
+  "main": "scripts/organize.js",
+  "scripts": {
+    "organize": "node scripts/organize.js",
+    "organise": "node scripts/organize.js",
+    "organize:dry": "node scripts/organize.js --dry-run",
+    "organise:dry": "node scripts/organize.js --dry-run",
+    "update-readme": "node scripts/update-readme.js"
+  },
+  "keywords": [
+    "codeforces",
+    "cph",
+    "algorithms",
+    "data-structures"
+  ],
+  "author": "Akash4406pal",
+  "license": "MIT"
+}

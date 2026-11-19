@@ -1,9 +1,9 @@
 # Codeforces Problem Solutions
 
 <!-- BADGES:START -->
-[![Problems Solved](https://img.shields.io/badge/Problems%20Solved-51-brightgreen?style=flat-square&logo=codeforces)](./README.md)
-[![Topics](https://img.shields.io/badge/Topics-13-blue?style=flat-square)](./README.md)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-11-16-orange?style=flat-square)](./README.md)
+[![Problems Solved](https://img.shields.io/badge/Problems%20Solved-58-brightgreen?style=flat-square&logo=codeforces)](./README.md)
+[![Topics](https://img.shields.io/badge/Topics-14-blue?style=flat-square)](./README.md)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-11-19-orange?style=flat-square)](./README.md)
 <!-- BADGES:END -->
 
 A curated repository of solutions to Codeforces group contests and practice problem sets, organized by algorithmic topic and data structure.
@@ -14,7 +14,7 @@ A curated repository of solutions to Codeforces group contests and practice prob
 
 | Topic / Folder | Count | Description |
 | :--- | :---: | :--- |
-| [Prefixes](./Prefixes) | 3 | Prefix Sums & Contribution technique |
+| [Prefixes](./Prefixes) | 7 | Prefix Sums & Contribution technique |
 | [Safari](./Safari) | 1 | Warmup contest problem set |
 | [Backtracking](./Backtracking) | 9 | Recursion, pathfinding, permutations & subproblems |
 | [Binary Search](./Binary%20Search) | 9 | Binary search variants, range queries & optimization |
@@ -27,7 +27,9 @@ A curated repository of solutions to Codeforces group contests and practice prob
 | [Arrays](./Arrays) | 1 | Array fundamentals & pair sums |
 | [Introduction to C++](./Introduction%20to%20C%2B%2B) | 1 | Basic I/O and number manipulation |
 | [Codeforces Rounds](./Codeforces%20Rounds) | 2 | Standard Codeforces Div. 2 contest problems |
-| **Total** | **51** | **All Categories Combined** |
+| [Graph Theory](./Graph%20Theory) | 0 | Graph Theory practice problems |
+| [Difference Array](./Difference%20Array) | 3 | Difference Array practice problems |
+| **Total** | **58** | **All Categories Combined** |
 
 ---
 
@@ -39,6 +41,10 @@ A curated repository of solutions to Codeforces group contests and practice prob
 | **A. Range Sum Query** | [`A_Range_Sum_Query.cpp`](./Prefixes/A_Range_Sum_Query.cpp) | [Codeforces Problem A](https://codeforces.com/group/4vcXCPx8NY/contest/678202/problem/A) |
 | **B. Even Sum Query** | [`B_Even_Sum_Query.cpp`](./Prefixes/B_Even_Sum_Query.cpp) | [Codeforces Problem B](https://codeforces.com/group/DNruwPkRNA/contest/726133/problem/B) |
 | **C. Count Vowels** | [`C_Count_Vowels.cpp`](./Prefixes/C_Count_Vowels.cpp) | [Codeforces Problem C](https://codeforces.com/group/4vcXCPx8NY/contest/678202/problem/C) |
+| **D. Range Sum of Squares** | [`D_Range_Sum_of_Squares.cpp`](./Prefixes/D_Range_Sum_of_Squares.cpp) | [Codeforces Problem D](https://codeforces.com/group/DNruwPkRNA/contest/726133/problem/D) |
+| **E. Count Numbers with Digit Sum K** | [`E_Count_Numbers_with_Digit_Sum_K.cpp`](./Prefixes/E_Count_Numbers_with_Digit_Sum_K.cpp) | [Codeforces Problem E](https://codeforces.com/group/DNruwPkRNA/contest/726133/problem/E) |
+| **F. Count Numbers with Exactly K factors** | [`F_Count_Numbers_with_Exactly_K_factors.cpp`](./Prefixes/F_Count_Numbers_with_Exactly_K_factors.cpp) | [Codeforces Problem F](https://codeforces.com/group/DNruwPkRNA/contest/726133/problem/F) |
+| **G. Alternating Range Sum** | [`G_Alternating_Range_Sum.cpp`](./Prefixes/G_Alternating_Range_Sum.cpp) | [Codeforces Problem G](https://codeforces.com/group/DNruwPkRNA/contest/726133/problem/G) |
 
 ### 🧭 Safari
 | Problem | File | Codeforces Link |
@@ -135,6 +141,17 @@ A curated repository of solutions to Codeforces group contests and practice prob
 | :--- | :--- | :--- |
 | **A. Love Triangle** | [`A_Love_Triangle.cpp`](./Codeforces%20Rounds/A_Love_Triangle.cpp) | [Codeforces 939A](https://codeforces.com/problemset/problem/939/A) |
 | **Watermelon (4A)** | [`c.cpp`](./Codeforces%20Rounds/c.cpp) | [Codeforces 4A](https://codeforces.com/problemset/problem/4/A) |
+
+---
+---
+
+
+### 📁 Difference Array
+| Problem | File | Codeforces Link |
+| :--- | :--- | :--- |
+| **C. Toggle Binary Array** | [`C_Toggle_Binary_Array.cpp`](./Difference%20Array/C_Toggle_Binary_Array.cpp) | [Codeforces Problem C](https://codeforces.com/group/DNruwPkRNA/contest/726822/problem/C) |
+| **A. Array Manipulation** | [`A_Array_Manipulation.cpp`](./Difference%20Array/A_Array_Manipulation.cpp) | [Codeforces Problem A](https://codeforces.com/group/DNruwPkRNA/contest/726822/problem/A) |
+| **B. Array Manipulation II** | [`B_Array_Manipulation_II.cpp`](./Difference%20Array/B_Array_Manipulation_II.cpp) | [Codeforces Problem B](https://codeforces.com/group/DNruwPkRNA/contest/726822/problem/B) |
 
 ---
 

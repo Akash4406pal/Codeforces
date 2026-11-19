@@ -1,8 +1,8 @@
 #include<iostream>
-#include<algorithm>
 #include<vector>
+#define int long long
 using namespace std;
-int main(){
+signed main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     int n,q,sum=0;
@@ -21,8 +21,8 @@ int main(){
         int ans;
         if(l==0)ans=p[r];
         else ans=p[r]-p[l-1];
-        if(l%2==0)cout<<ans<<"\n";
-        else cout<<ans*-1<<"\n";
+        if(l%2==1)ans*=-1;
+        cout<<ans<<"\n";
     }
     return 0;
 }
