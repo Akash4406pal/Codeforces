@@ -3,7 +3,7 @@
 <!-- BADGES:START -->
 [![Problems Solved](https://img.shields.io/badge/Problems%20Solved-58-brightgreen?style=flat-square&logo=codeforces)](./README.md)
 [![Topics](https://img.shields.io/badge/Topics-14-blue?style=flat-square)](./README.md)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-11-24-orange?style=flat-square)](./README.md)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-11-25-orange?style=flat-square)](./README.md)
 <!-- BADGES:END -->
 
 A curated repository of solutions to Codeforces group contests and practice problem sets, organized by algorithmic topic and data structure.
