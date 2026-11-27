@@ -1,0 +1,25 @@
+#include<iostream>
+#include<algorithm>
+#include<vector>
+using namespace std;
+int main(){
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    int n;
+    if(!(cin>>n))return 0;
+    vector<int>a(n,0);
+    int sum=0,current_Sum=0;
+    for(int i=0;i<n;i++){
+        cin>>a[i];
+        sum+=a[i];
+    }
+    for(int i=0;i<n;i++){
+        if(current_Sum==sum-current_Sum-a[i]){
+            cout<<i;
+            return 0;
+        }
+        current_Sum+=a[i];
+    }
+    cout<<"-1";
+    return 0;
+}
