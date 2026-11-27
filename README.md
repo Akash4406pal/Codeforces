@@ -1,7 +1,7 @@
 # Codeforces Problem Solutions
 
 <!-- BADGES:START -->
-[![Problems Solved](https://img.shields.io/badge/Problems%20Solved-61-brightgreen?style=flat-square&logo=codeforces)](./README.md)
+[![Problems Solved](https://img.shields.io/badge/Problems%20Solved-62-brightgreen?style=flat-square&logo=codeforces)](./README.md)
 [![Topics](https://img.shields.io/badge/Topics-15-blue?style=flat-square)](./README.md)
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-11-27-orange?style=flat-square)](./README.md)
 <!-- BADGES:END -->
@@ -29,8 +29,8 @@ A curated repository of solutions to Codeforces group contests and practice prob
 | [Codeforces Rounds](./Codeforces%20Rounds) | 2 | Standard Codeforces Div. 2 contest problems |
 | [Graph Theory](./Graph%20Theory) | 0 | Graph Theory practice problems |
 | [Difference Array](./Difference%20Array) | 3 | Difference Array practice problems |
-| [Lab - I](./Lab%20-%20I) | 3 | Lab - I practice problems |
-| **Total** | **61** | **All Categories Combined** |
+| [Lab - I](./Lab%20-%20I) | 4 | Lab - I practice problems |
+| **Total** | **62** | **All Categories Combined** |
 
 ---
 
@@ -163,6 +163,7 @@ A curated repository of solutions to Codeforces group contests and practice prob
 | **A. Is Everyone Same?** | [`A_Is_Everyone_Same.cpp`](./Lab%20-%20I/A_Is_Everyone_Same.cpp) | [Codeforces Problem A](https://codeforces.com/group/DNruwPkRNA/contest/726841/problem/A) |
 | **B. Is It Sorted?** | [`B_Is_It_Sorted.cpp`](./Lab%20-%20I/B_Is_It_Sorted.cpp) | [Codeforces Problem B](https://codeforces.com/group/DNruwPkRNA/contest/726841/problem/B) |
 | **E. Equilibrium Point** | [`E_Equilibrium_Point.cpp`](./Lab%20-%20I/E_Equilibrium_Point.cpp) | [Codeforces Problem E](https://codeforces.com/group/DNruwPkRNA/contest/726841/problem/E) |
+| **C. Count Adjacent Equal Elements** | [`C_Count_Adjacent_Equal_Elements.cpp`](./Lab%20-%20I/C_Count_Adjacent_Equal_Elements.cpp) | [Codeforces Problem C](https://codeforces.com/group/DNruwPkRNA/contest/726841/problem/C) |
 
 ---
 
